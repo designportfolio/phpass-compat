@@ -1,0 +1,22 @@
+{
+    "name": "concrete5/phpass-compat",
+    "description": "Hautlook/phpass shim",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Hautelook\\Phpass\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Korvin Szanto",
+            "email": "me@kor.vin"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
