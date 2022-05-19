@@ -1,5 +1,5 @@
 {
-    "name": "concrete5/phpass-compat",
+    "name": "concretecms/phpass-compat",
     "description": "Hautlook/phpass shim",
     "type": "library",
     "autoload": {
