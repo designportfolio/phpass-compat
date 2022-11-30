@@ -28,7 +28,12 @@ class PasswordHash
      */
     public function get_random_bytes($count)
     {
-        return random_bytes($count);
+        if(version_compare(PHP_VERSION, '7.0.0') >= 0 ) {
+            return random_bytes($count);
+        } else {
+            return openssl_random_pseudo_bytes($count);
+        }
+        
     }
 
     /**
